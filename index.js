@@ -20,9 +20,9 @@ const teamArr = [];
 
 const addManager = () => {
     console.log(`
-    =======================
-            MANAGER 
-    =======================
+    =============================
+        TEAM GENERATOR INPUT 
+    =============================
     `);
     return inquirer.prompt ([
         {
@@ -40,8 +40,8 @@ const addManager = () => {
         },
         {
             type: 'input',
-            name: 'ID',
-            message: "what is the Manager's ID number?",
+            name: 'id',
+            message: "what is the manager's ID number?",
             validate: idInput => {
                 if  (isNaN(idInput)) {
                     console.log ("Please enter Manager's ID number.")
@@ -91,19 +91,6 @@ const addManager = () => {
 // =====================
 
 const addEmployee = () => {
-    if(role.input === "Engineer") {
-        console.log(`
-        =========================
-                ENGINEER 
-        =========================
-        `);
-    } else if(input.role === "Intern") {
-        console.log(`
-        =======================
-                INTERN 
-        =======================
-        `);
-    }
     return inquirer.prompt ([
         {
             type: 'list',
@@ -127,7 +114,7 @@ const addEmployee = () => {
         {
             type: 'input',
             name: 'id',
-            message: "What is the mployee's ID number?",
+            message: "What is the employee's ID number?",
             validate: idInput => {
                 if  (isNaN(idInput)) {
                     console.log ("Please enter the employee's ID number.")
@@ -191,11 +178,9 @@ const addEmployee = () => {
 
         if (role === "Engineer") {
             employee = new Engineer (name, id, email, github);
-            console.log(employee);
 
         } else if (role === "Intern") {
             employee = new Intern (name, id, email, school);
-            console.log(employee);
         }
 
         teamArr.push(employee); //pushes the employee data into the employee array
