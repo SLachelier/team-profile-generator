@@ -5,12 +5,18 @@
 This is a command line application that uses inquirer to receive user input for entering employee information for a software engineering team. An HTML webpage is generated from this data that displays summaries for each employee. Jest was utilized in this project for test-driven development.
 
 ## User Story
-`AS A manager
+```
+{
+AS A manager
 I WANT to generate a webpage that displays my team's basic info
-SO THAT I have quick access to their emails and GitHub profiles`
+SO THAT I have quick access to their emails and GitHub profiles
+}
+```
 
 ## Acceptance Criteria
-`GIVEN a command-line application that accepts user input
+```
+{
+GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
 WHEN I click on an email address in the HTML
@@ -26,7 +32,9 @@ THEN I am prompted to enter the engineer’s name, ID, email, and GitHub usernam
 WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated`
+THEN I exit the application, and the HTML is generated
+}
+```
 
 ## Examples
 	![Example HTML page](./assets/images/examplePage.png)
@@ -35,7 +43,8 @@ THEN I exit the application, and the HTML is generated`
 
 ## Installation
 Once the repository is downloaded, you will want to ensure that these folders are already present:
-`
+```
+{
 .
 ├── __tests__/             //jest tests
 │   ├── Employee.test.js
@@ -48,7 +57,8 @@ Once the repository is downloaded, you will want to ensure that these folders ar
 ├── .gitignore             // indicates which folders and files Git should ignore
 ├── index.js               // runs the application
 └── package.json   
-`        
+}
+```
 You will need node.js on your computer to run this application, as well as all of the dependencies in the package.json. Run `npm i` in the terminal to install the packages.
 
 ## Usage
