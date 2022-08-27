@@ -33,9 +33,9 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ## Examples
-	![Example HTML page](./assets/images/examplePage.png)
-    ![Successful Tests](./assets/images/successfulTests.png)
-    [Example HTML page](./assets/example.html)
+![Example HTML page](./assets/images/examplePage.png)
+![Successful Tests](./assets/images/successfulTests.png)
+ [Example HTML page](./assets/example.html)
 
 ## Installation
 Once the repository is downloaded, you will want to ensure that these folders are already present:
