@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "A node.js command-line application that takes in information about employees on a software engineering team.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+SLachelier/team-profile-generator.git"
+  },
+  "author": "Shauna Lachelier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SLachelier/team-profile-generator"
+  },
+  "homepage": "https://github.com/SLachelier/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.0"
+  }
+}
