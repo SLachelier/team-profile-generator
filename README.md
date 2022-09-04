@@ -5,6 +5,7 @@
 This is a command line application that uses inquirer to receive user input for entering employee information for a software engineering team. An HTML webpage is generated from this data that displays summaries for each employee. Jest was utilized in this project for test-driven development.
 
 ## User Story
+
 ```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
@@ -12,6 +13,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 ## Acceptance Criteria
+
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
@@ -39,6 +41,7 @@ THEN I exit the application, and the HTML is generated
 
 ## Installation
 Once the repository is downloaded, you will want to ensure that these folders are already present:
+
 ```
 .
 ├── __tests__/             //jest tests
@@ -53,6 +56,7 @@ Once the repository is downloaded, you will want to ensure that these folders ar
 ├── index.js               // runs the application
 └── package.json   
 ```
+
 You will need node.js on your computer to run this application, as well as all of the dependencies in the package.json. Run `npm i` in the terminal to install the packages.
 
 ## Usage
